@@ -43,13 +43,13 @@ class SearchPlayList:
         all_songs = [''.join(song.split()) if '' == '\n\t\n' in song.split() else ' '.join(song.split()) for song in all_song_datas]
 
         # collect all singers from list
-        all_singer_datas = [singer.getText() for singer in soup.select(selector="span.c-label.a-font-primary-s")]
+        # all_singer_datas = [singer.getText() for singer in soup.select(selector="span.c-label.a-font-primary-s")]
 
         # removing spaces and new line from lists
-        all_singers = [''.join(singer.split()) if '' == '\n\t\n' in singer.split() else ' '.join(singer.split()) for singer in all_singer_datas]
+        # all_singers = [''.join(singer.split()) if '' == '\n\t\n' in singer.split() else ' '.join(singer.split()) for singer in all_singer_datas]
 
         # delete all contents from all_songs.csv
-        open("all_songs.csv", "w").close()
+        # open("all_songs.csv", "w").close()
 
         all_song_lists = []
 
