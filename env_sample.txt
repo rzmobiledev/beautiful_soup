@@ -1,0 +1,3 @@
+SPOTIFY_SECRET=
+SPOTIFY_ID=
+SPOTIFY_REDIRECT_URL=https://example.com
