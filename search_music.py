@@ -53,12 +53,12 @@ class SearchPlayList:
 
         all_song_lists = []
 
-        for num in range(len(all_singers)):
+        # for num in range(len(all_singers)):
             # with open("all_songs.csv", "a") as file:
                 # file.write(f"{num + 1}, {all_songs[num]}, {all_singers[num]}\n")
             # print(all_singers[num])
-            all_song_lists.append(all_songs[num])
-        return all_song_lists
+            # all_song_lists.append(all_songs[num])
+        return all_songs
 
 
 # should_continue = True
